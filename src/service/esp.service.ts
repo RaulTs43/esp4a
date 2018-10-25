@@ -13,4 +13,8 @@ export class EspService{
     public ledOff(){
         return this.afDB.database.ref().child('LED_STATUS').set(0);
     }
+
+    
+    // this.afDB.database.ref().child('Nombre');
+    // dbRef.on('value', snap=>alert(valor=snap.val()));
 }
